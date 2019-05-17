@@ -28,6 +28,7 @@ def color_fondo(cl):
     t.screen.bgcolor(cl)
 
 root = tk.Tk()
+root.title("Painty1")
 canvas = tk.Canvas(master = root, width = 790, height = 700)
 canvas.pack()
 
@@ -62,3 +63,4 @@ tk.Button(master = root, bg = "black", width=2, command = lambda:color_fondo("bl
 tk.Label(master = root, text = "BACKGROUND COLOR").pack(side = tk.RIGHT)
 
 root.mainloop()
+
