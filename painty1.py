@@ -1,3 +1,6 @@
+    
+#!/usr/bin/python
+# -*- coding: latin-1 -*-
 import turtle
 import tkinter as tk
 
